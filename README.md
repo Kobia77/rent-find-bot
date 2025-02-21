@@ -1,4 +1,4 @@
-# Rent Find Bot - by Kobi Alen
+# Rent Find Bot - by Kobi
 
 ## Overview
 A Telegram bot that helps users find rental properties by scraping listings from Madlan.
@@ -50,4 +50,16 @@ A Telegram bot that helps users find rental properties by scraping listings from
     - beautifulsoup4
     - undetected-chromedriver
     - selenium
+
+## Usage
+1. **Set Up Environment Variables:**
+    Create a .env file in the project root with your Telegram bot token:
+    ```  BOT_TOKEN=your_telegram_bot_token```
+   
+3. **Run the Bot:**
+```  python bot.py```
+
+    The bot will start and listen for incoming messages on Telegram. Use the /start command to begin your rental search.
+
+   
 
